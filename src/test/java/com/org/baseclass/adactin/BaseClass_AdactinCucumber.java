@@ -50,7 +50,7 @@ public class BaseClass_AdactinCucumber {
 	public static JavascriptExecutor js;
 	public static TakesScreenshot ts;
 	public static WebDriverWait wait;
-	
+//browser launch	
 //	public static void browserLaunch() {
 //		WebDriverManager.chromedriver().setup();
 //		driver = new ChromeDriver();
