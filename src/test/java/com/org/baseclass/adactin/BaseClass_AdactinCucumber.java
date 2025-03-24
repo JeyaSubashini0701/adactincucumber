@@ -51,8 +51,6 @@ public class BaseClass_AdactinCucumber {
 	public static TakesScreenshot ts;
 	public static WebDriverWait wait;
 	
- //test to check
-//browser launch	
 //	public static void browserLaunch() {
 //		WebDriverManager.chromedriver().setup();
 //		driver = new ChromeDriver();
