@@ -54,7 +54,7 @@ public class AdactineExecutionClass {
 	@Then("get the BookingConfirmation and Print the orderNum")
 	public void get_the_booking_confirmation_and_print_the_order_num() {
 		 String attValue=BaseClass_AdactinCucumber.getAttribute(BookingConfirmation_Locator.getOrderNumber(),BaseClass_AdactinCucumber.readFromExcel(5, 6));
-		 System.out.println(attValue);
+		 System.out.println("orderId : " + attValue);
 		 BaseClass_AdactinCucumber.reusableExcelWrite(BaseClass_AdactinCucumber.readFromExcel(9, 0), 5, 7, attValue);
 	}
 }
