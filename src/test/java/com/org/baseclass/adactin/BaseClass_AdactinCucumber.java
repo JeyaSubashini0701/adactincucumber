@@ -51,12 +51,12 @@ public class BaseClass_AdactinCucumber {
 	public static TakesScreenshot ts;
 	public static WebDriverWait wait;
 	
-//	public static void browserLaunch() {
-//		WebDriverManager.chromedriver().setup();
-//		driver = new ChromeDriver();
-//		driver.get("https://adactinhotelapp.com/");
-//		driver.manage().window().maximize();
-//	}
+	public static void browserLaunch() {
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.get("https://adactinhotelapp.com/");
+		driver.manage().window().maximize();
+	}
 	
 	
   /*	public static void browserLaunch() {
@@ -66,7 +66,7 @@ public class BaseClass_AdactinCucumber {
 		driver.manage().window().maximize();
 	} */
 	
-	  public static void browserLaunch(String browserName,String url){
+/*	  public static void browserLaunch(String browserName,String url){
 		
 	   switch(browserName.toLowerCase()){
 	    case "chrome" :

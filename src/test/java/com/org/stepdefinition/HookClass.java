@@ -10,7 +10,7 @@ import io.cucumber.java.Before;
 public class HookClass {
    @Before
    public void browserLaunch() {
-	   BaseClass_AdactinCucumber.browserLaunch("chrome",BaseClass_AdactinCucumber.readFromProp("url"));
+	   BaseClass_AdactinCucumber.browserLaunch();
    }
    @After
    public void takeScreenshot() {
