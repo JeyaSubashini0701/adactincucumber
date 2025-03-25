@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="23.079" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="To Book Hotel in Adactin Website" name="Book Hotel and Print the Order Number" time="22.822">
+<testsuite name="Cucumber" time="27.68" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To Book Hotel in Adactin Website" name="Book Hotel and Print the Order Number" time="26.757">
 <system-out><![CDATA[
 Given Log in to the AdactinHotel............................................passed
 When Enter the search Hotel details.........................................passed

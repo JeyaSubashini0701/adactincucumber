@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="C:\\Users\\MSARUL\\eclipse-workspace\\AdactinCucumber\\src\\test\\java\\com\\org\\featurefile\\Adactin.feature",glue="com.org.stepdefinition",tags="@adactin",
 		plugin = {
 		        "pretty", 
-		        "junit:target\\cucumberreports\\Cucumber.xml"  // JUnit Report
+		        "junit:target\\cucumber-reports\\Cucumber.xml"  // JUnit Report
 		    },monochrome = true)
 public class RunnerClass {
 
